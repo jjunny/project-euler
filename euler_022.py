@@ -1,7 +1,7 @@
 rst = 0
 cnt = 1
 with open("name.txt", "r") as f:
-    word = f.read().replace('"','').split(",")
+    word = f.read().replace('"', '').split(",")
     word.sort()
     for w in word:
         tmp = 0
